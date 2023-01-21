@@ -46,7 +46,7 @@ function App() {
       </div> 
 
       <h1>ola mundo</h1>
-      <button id='day' onClick={retry}>voltar</button>
+      
 
       {galleryStage === "gallery" && <PageSecond />}
       {galleryStage === "start" && <Header startGallery={startGallery} />}

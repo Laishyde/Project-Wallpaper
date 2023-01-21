@@ -4,12 +4,14 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 
 
-export default function StandardImageList() {
+export default function StandardImageList({retry}) {
  
     return (
+      <div className='btn'>
+        <button id='day' onClick={retry}>voltar</button>
+ 
       <div className='List'>
-      
-      <ImageList sx={{  }} cols={4} rowHeight={404}>
+        <ImageList className='Picture' cols={4}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -21,6 +23,7 @@ export default function StandardImageList() {
           </ImageListItem>
         ))}
       </ImageList>
+      </div>
       </div>
     );
   }
