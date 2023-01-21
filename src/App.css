@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.list{
+  display: flex;
+  list-style: none;
+  color: #fff;
+  
+}
+li{
+  margin: 20px;
+}
+.NavBar{
+  background-color: black;
+  display: flex;
+ 
+ 
+}
