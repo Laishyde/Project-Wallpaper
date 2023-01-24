@@ -1,20 +1,15 @@
 .App {
   text-align: center;
-    
-}
-.list{
-  display: flex;
-  list-style: none;
-  color: #fff;
-  
-}
-li{
-  margin: 20px;
-}
-.NavBar{
-  background-color: black;
-  display: flex;
- 
- 
-}
+  width: 100%;
+  background-image: url(../src/assets/imagens/2065127-cinema-cinema-teatro-com-tela-em-branco-e-assentos-vermelhos-ilustracaoial-gratis-vetor.jpg);
+    background-position: center;
+    background-size: cover;
 
+}
+.Titulo {
+  width: 200px;
+  padding: 0;
+}
+.Titulo:hover{
+  background-color: transparent;
+}

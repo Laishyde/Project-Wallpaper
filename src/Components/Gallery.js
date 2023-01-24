@@ -8,10 +8,11 @@ export default function StandardImageList({retry}) {
  
     return (
       <div className='btn'>
+        <h2>Olá de novo</h2>
         <button id='day' onClick={retry}>voltar</button>
  
       <div className='List'>
-        <ImageList className='Picture' cols={4}>
+        <ImageList className='Picture'rowHeight={320} width={900}  cols={4}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -22,9 +23,9 @@ export default function StandardImageList({retry}) {
             />
           </ImageListItem>
         ))}
-      </ImageList>
-      </div>
-      </div>
+       </ImageList>
+        </div>
+      </div> 
     );
   }
 
@@ -50,32 +51,32 @@ export default function StandardImageList({retry}) {
       title: 'karate-kid',
     },
     {
-      img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-      title: 'Honey',
+      img: 'https://i.pinimg.com/236x/f5/2e/89/f52e899b7ec335d416487932ade0de6c.jpg',
+      title: 'Fantasmas se divertem',
     },
     {
-      img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-      title: 'Basketball',
+      img: 'https://www.unimado.pt/images/covers/sozinho-em-casa.webp',
+      title: 'Esqueceram de mim',
     },
     {
-      img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-      title: 'Fern',
+      img: 'https://br.web.img3.acsta.net/medias/nmedia/18/91/31/26/20139277.jpg',
+      title: 'Free willy',
     },
     {
-      img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-      title: 'Mushrooms',
+      img: 'https://i.pinimg.com/564x/37/77/62/377762f19b9132c064154aec92fe0dca.jpg',
+      title: 'cantando na chuva',
     },
     {
-      img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-      title: 'Tomato basil',
+      img: 'https://i.pinimg.com/564x/ef/33/d3/ef33d32fc056913d9fbf0dc23355913f.jpg',
+      title: 'Jumanji',
     },
     {
-      img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-      title: 'Sea star',
+      img: 'https://i.pinimg.com/564x/04/3d/43/043d43b721d220faf2edbd6a3635cc35.jpg',
+      title: 'O mascara',
     },
     {
-      img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-      title: 'Bike',
+      img: 'https://i.pinimg.com/564x/17/2a/6e/172a6ee5de0509a572c80bcb397d0ebf.jpg',
+      title: 'Uma noite no museu',
     },
   ];
 

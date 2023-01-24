@@ -1,9 +1,13 @@
 
 import './App.css';
+import Search from './Components/Search';
 import Gallery from './Components/Gallery';
 import Header from './Components/Header';
-import PageSecond from './Components/PageSecond';
-import { useCallback, useEffect, useState } from 'react';
+import Footer from './Components/Footer';
+import Titulo from  './assets/imagens/titulo.png'
+
+
+import {   useState } from 'react';
 
 const stages = [
   { id: 0, name: "start" },
@@ -15,6 +19,8 @@ const stages = [
 
 
 function App() {
+ 
+
   const [galleryStage, setGalleryStage] = useState(stages[0].name);
 
   const startGallery = () => {
@@ -35,25 +41,18 @@ function App() {
     
     <div className="App">
 
-      <div className='NavBar'>
-      <ul className='list'>
-        <li>Categoria</li>
-        <li>Sobre</li>
-        <li>Contato</li>
-      </ul>
-       
-      
-      </div> 
+     <Search/>
+     
 
-      <h1>ola mundo</h1>
+      <img className='Titulo' src={Titulo} alt="" />
       
 
-      {galleryStage === "gallery" && <PageSecond />}
+   
       {galleryStage === "start" && <Header startGallery={startGallery} />}
       {galleryStage === "end" && <Gallery retry={retry} />} 
      
      
-   
+    <Footer/>
     </div>
   );
 }

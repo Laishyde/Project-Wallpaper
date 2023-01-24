@@ -1,20 +1,19 @@
-
 {
     "image": [
         {
-            "id": 1,
-            "name": "Camisa",
-            "price": 59.9
+            "id": "./assets/data/imagens/freek.jpg",
+            "name": "como era antes de voce",
+            "category": "romance"
         },
         {
             "id": 2,
             "name": "Calça vermelha",
-            "price": 90
+            "category": 90
         },
         {
             "id": 3,
             "name": "Boné aba reta",
-            "price": 29.9
+            "category": 29.9
         }
     ]
 }
