@@ -1,0 +1,11 @@
+/* Grid Container */
+.animes-list {
+    display: grid;
+grid-template-columns:  1fr 2fr 1fr 2fr;
+list-style: none;
+text-align: center ;
+}
+.animes-list{
+    max-width: 100%;
+}
+

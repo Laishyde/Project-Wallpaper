@@ -1,23 +1,13 @@
- .List{
-    width: 100%;
-  display: flex;
-  justify-content: center;
- 
- 
- }
- .Picture{
-  width: 80%;
- 
+.japan{
+  width: 500px;
 
-  
- 
- }
-.btn{
-  width: 100%;
  
 }
-li{
-  padding: 0;
-  margin: 15px;
-  padding-top: 20px;
+.orange{
+  background-color: coral;
+  height: 100px;
+}
+#day{
+ 
+ 
 }
