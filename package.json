@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
    
   },
-  "home-page": "https://laishyde.github.io/Project-Wallpaper/",
+  "home-page": "https://laishyde.github.io/online-storage",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
