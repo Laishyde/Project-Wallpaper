@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e8c76d0.css",
+    "main.js": "/static/js/main.46c927d6.js",
+    "static/js/787.8249b9b6.chunk.js": "/static/js/787.8249b9b6.chunk.js",
+    "static/media/menina.gif": "/static/media/menina.83dd7586f20fb2c9df26.gif",
+    "static/media/goku.gif": "/static/media/goku.bbd338e569e91adbdc8c.gif",
+    "static/media/4253126.jpg": "/static/media/4253126.ad4653c5d56b6ae31875.jpg",
+    "static/media/balao.png": "/static/media/balao.9ddf8d5b456e9380bed4.png",
+    "static/media/KOMIKAX_.ttf": "/static/media/KOMIKAX_.0c8092b6805b7eb2fb03.ttf",
+    "index.html": "/index.html",
+    "main.7e8c76d0.css.map": "/static/css/main.7e8c76d0.css.map",
+    "main.46c927d6.js.map": "/static/js/main.46c927d6.js.map",
+    "787.8249b9b6.chunk.js.map": "/static/js/787.8249b9b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e8c76d0.css",
+    "static/js/main.46c927d6.js"
+  ]
+}
