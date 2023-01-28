@@ -9,5 +9,12 @@ gap: 2rem;
 .animes-list{
     max-width: 100%;
 }
+@media(max-width:900px){
+    .animes-list{
+        display: flex;
+        flex-direction: column;
+       padding: 80px;
+    }
+}
 
 
