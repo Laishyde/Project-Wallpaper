@@ -11,3 +11,8 @@
  margin-bottom: 36px;
  
 }
+@media(max-width:900px){
+  .japan{
+    width: 50%;
+  }
+}
