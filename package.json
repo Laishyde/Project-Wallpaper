@@ -17,10 +17,8 @@
     "web-vitals": "^2.1.4"
    
   },
-  "home-page": "https://laishyde.github.io/online-storage",
+  
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "set PORT=3000  && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
