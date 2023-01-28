@@ -2,32 +2,50 @@
    .Interface{
     width: 100%;
     background-image: url(../assets//imagens/4253126.jpg);
-        background-position: center;
-        background-size: cover;
-        
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
    }
    
    .balon{
     width: 400px;
-    margin-bottom: 400px;
+   margin-bottom: 90px;
+  
+    margin-left: 40px;
   
    }
    @media(max-width:900px){
     .balon{
         display: none;
     }
+    .Interface{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
    }
+   .girl{
+  
    
+   }
+  .item{
+    
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  }
+  .button {
+      padding: 10px 15px;
+      margin-bottom: 20px;
+      width: 150px;
+      
+  }
    
 
-   .girl{
-    margin-left: 100px;  
-    
-   }
-   .hello{
-   padding:  40px;
-  
-   }
   
  
  

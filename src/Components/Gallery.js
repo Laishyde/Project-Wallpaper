@@ -12,9 +12,10 @@ export default function StandardImageList({ retry }) {
         <div className="orange"></div>
           <img className='japan' src={Gif} alt="Goku" />
           <div>
+        <ImageFilter />
       <button id='day' onClick={retry}>voltar</button> 
         </div>
-      <ImageFilter />
+      
   
     </div>
   );

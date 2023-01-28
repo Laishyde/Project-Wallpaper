@@ -1,9 +1,7 @@
-.App {
-  text-align: center;
-  width: 100%;
-  
- 
 
+@font-face {
+  font-family: KOMIKAX;
+  src: url(../src/assets/imagens/KOMIKAX_.ttf)format('truetype');
 }
 .Titulo {
   width: 200px;
@@ -11,4 +9,10 @@
 }
 .Titulo:hover{
   background-color: transparent;
+}
+.App {
+  text-align: center;
+  width: 100%;
+  font-family: KOMIKAX;
+
 }

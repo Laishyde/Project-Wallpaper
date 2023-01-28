@@ -24,6 +24,9 @@ const ImageFilter = () => {
     <div className='List'>
        
         <SearchInput value={text} onChange={(search)=>setText(search)}/>
+          {text && ! info.data &&(
+            <span>Um segundinho...</span>
+          )}
           {info.data && (
            
              <ul className='animes-list'>
